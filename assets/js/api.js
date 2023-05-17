@@ -19,13 +19,13 @@ export const url = {
     return `https://api.openweathermap.org/data/2.5/forecast?${lat}&${lon}&units=metric&lang=uk`
   },
   airPollution(lat, lon) {
-    return `http://api.openweathermap.org/data/2.5/air_pollution?${lat}&${lon}&lang=uk`
+    return `https://api.openweathermap.org/data/2.5/air_pollution?${lat}&${lon}&lang=uk`
   },
   reverseGeo(lat, lon) {
-    return `http://api.openweathermap.org/geo/1.0/reverse?${lat}&${lon}&limit=5&lang=uk`
+    return `https://api.openweathermap.org/geo/1.0/reverse?${lat}&${lon}&limit=5&lang=uk`
   },
   /* Пошуковий запит */
   geo(query) {
-    return `http://api.openweathermap.org/geo/1.0/direct?q=${query}&limit=5&lang=uk`
+    return `https://api.openweathermap.org/geo/1.0/direct?q=${query}&limit=5&lang=uk`
   }
 }
