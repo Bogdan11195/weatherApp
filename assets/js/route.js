@@ -1,5 +1,6 @@
 import { updateWeather, error404 } from "./app.js";
 
+
 const defaultLocation = "#/weather?lat=51.5073219&lon=-0.1276474" // Лондон
 
 const currentLocation = function () {
